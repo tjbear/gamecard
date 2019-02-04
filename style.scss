@@ -1,2 +1,41 @@
-.icon-small { width: 25px; }
+$text-gray: #7F7F7F;
+$bg-gray: #484747;
+$footer-gray: #cccccc;
 
+.aka {
+    color: $text-gray;
+}
+
+
+.icon-small { 
+    width: 25px; 
+    height: 25px;
+}
+
+#gaming-ids {
+    max-width: 60%;
+    margin: 0 auto;
+    
+    .gaming-id {
+    padding-left:25px;
+    } 
+}
+
+#streaming {
+    background-color: $bg-gray;
+}
+
+.footer-box { 
+    max-width:75%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: $footer-gray;
+}
+  
+.stream {
+    color: #fff;
+}
+
+.stream-title { color: $footer-gray; } 

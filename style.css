@@ -1,5 +1,39 @@
+.aka {
+  color: #7F7F7F;
+}
+
 .icon-small {
   width: 25px;
+  height: 25px;
+}
+
+#gaming-ids {
+  max-width: 60%;
+  margin: 0 auto;
+}
+#gaming-ids .gaming-id {
+  padding-left: 25px;
+}
+
+#streaming {
+  background-color: #484747;
+}
+
+.footer-box {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #cccccc;
+}
+
+.stream {
+  color: #fff;
+}
+
+.stream-title {
+  color: #cccccc;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,63 +12,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
+
        
         <!-- Header -->
-        <header>
-            <h1 class="text-center text-uppercase">TJ Bear</h1>
-            <h4 class="text-center text-uppercase">AKA Saint Warhead</h4>
-            <img src="img/hero-photo.jpg" alt="Photo of TJ Bear" class="img-fluid">
-        </header>
+        <div class="container-fluid">
+            <header>
+                <h1 class="text-center text-uppercase title pt-3">TJ Bear</h1>
+                <h4 class="text-center text-uppercase aka mb-4">AKA Saint Warhead</h4>
+            </header>
+        </div>
         
-        <!-- Gaming IDs -->
-        <section id="gaming-ids">
-            <div>
-               <img src="img/blizzard-i.png" class="img-fluid icon-small">
-               <p class="text-uppercase">SaintWarhead#1854</p>
-            </div>
-            <div>
-               <img src="img/steam-i.png" class="img-fluid icon-small">
-               <p class="text-uppercase"><a href="#">warheadpdx</a></p>
-            </div>
-            <div>
-               <img src="img/ps-i.png" class="img-fluid icon-small">
-               <p class="text-uppercase"><a href="#">saintwarhead</a></p>
-            </div>
-            <div>
-               <img src="img/discord-i.png" class="img-fluid icon-small">
-               <p class="text-uppercase"><a href="#">Join My Discord</a></p>
-            </div>
-        </section>
+        <!-- Hero -->
+        <img src="img/hero-photo.jpg" alt="Photo of TJ Bear" class="img-fluid mb-4">
         
+        <div class="container-fluid">
+            <!-- Gaming IDs -->
+            <section class="d-flex flex-column pb-1" id=gaming-ids>
+                <div class="d-flex flex-row">
+                   <img src="img/blizzard-i.png" class="img-fluid icon-small">
+                   <p class="text-uppercase gaming-id">SaintWarhead#1854</p>
+                </div>
+                <div class="d-flex flex-row">
+                   <img src="img/steam-i.png" class="img-fluid icon-small">
+                   <p class="text-uppercase gaming-id"><a href="#">warheadpdx</a></p>
+                </div>
+                <div class="d-flex flex-rowr">
+                   <img src="img/ps-i.png" class="img-fluid icon-small">
+                   <p class="text-uppercase gaming-id"><a href="#">saintwarhead</a></p>
+                </div>
+                <div class="d-flex flex-row">
+                   <img src="img/discord-i.png" class="img-fluid icon-small">
+                   <p class="text-uppercase gaming-id"><a href="#">Join My Discord</a></p>
+                </div>
+            </section>
+        </div>
         <!-- Streaming -->
-        <section id="streaming">
-            <p class="text-center text-uppercase">Streaming Schedule</p>
-            <p class="text-center text-uppercase">7 Days a Week | 9PM - 10PM PST</p>
+        <section id="streaming" class="pt-3 pb-1">
+            <p class="text-center text-uppercase font-weight-bold stream-title">Streaming Schedule</p>
+            <hr />
+            <p class="text-center text-uppercase font-weight-bold stream">7 Days a Week | 9PM - 10PM PST</p>
         </section>
-        
+
         <!-- Footer Links -->
-        <footer>
-            <div>
-                <a href="#"><img src="img/twitch-i.png" class="img-fluid icon-small"></a>
-            </div>
-            <div>
-                <a href="#"><img src="img/mixer-i.png" class="img-fluid icon-small"></a>
-            </div>
-            <div>
-                <a href="#"><img src="img/youtube-i.png" class="img-fluid icon-small"></a>
-            </div>
-            <div>
-                <a href="#"><img src="img/fb-i.png" class="img-fluid icon-small"></a>
-            </div>
-            <div>
-                <a href="#"><img src="img/twitter-i.png" class="img-fluid icon-small"></a>
-            </div>
-            <div>
-                <a href="#"><img src="img/ig-i.png" class="img-fluid icon-small"></a>
+        <footer class="pt-3 pb-3">
+            <div class="d-flex justify-content-around footer-box">
+                <div>
+                    <a href="#"><img src="img/twitch-i.png" class="img-fluid icon-small"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/mixer-i.png" class="img-fluid icon-small"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/youtube-i.png" class="img-fluid icon-small"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/fb-i.png" class="img-fluid icon-small"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/twitter-i.png" class="img-fluid icon-small"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/ig-i.png" class="img-fluid icon-small"></a>
+                </div>
             </div>
         </footer>
-    </div>
+        
+
     
     <!-- JQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
